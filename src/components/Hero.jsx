@@ -1,0 +1,43 @@
+import Image from "next/image";
+
+const Hero = () => {
+    return (
+        <div className="hero-container">
+            <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} alt="Alex Dang personal headshot" />
+            <div className="hero-text">
+                <h1>Hey, I'm Alex Dang 👋</h1>
+                <p>
+                    I'm computer science graduate software developer with experience in development identity security, e-commers, healthcare, and financial industries
+                </p>
+                <div className="social-icons">
+                    <a
+                        href="https://t.me/dangalex"
+                        aria-label="Telegram"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a
+                        href="https://github.com/vietlongdang"
+                        aria-label="GitHub"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i className="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/dang-viet-long"
+                        aria-label="LinkedIn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i className="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Hero;
