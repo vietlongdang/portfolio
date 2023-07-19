@@ -32,6 +32,6 @@ export const projectData = [
 		title: 'Docker Training App',
 		description:
 			'Implemented simple application with DockerFile and DockerCompose for dev and prod enviroment. Also using NGINX to reverse proxy, load balancing, and caching.',
-		gitHubLink: 'https://github.com/olawanlejoel/TwitterUI-clone',
+		gitHubLink: 'https://github.com/vietlongdang/Docker',
 	},
 ];

@@ -13,7 +13,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <i class="fa-brands fa-telegram"></i>
+                        <i className="fa-brands fa-telegram"></i>
                     </a>
                     <a
                         href="https://github.com/vietlongdang"

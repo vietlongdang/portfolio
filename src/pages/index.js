@@ -13,7 +13,7 @@ const Home = () => {
 				<title>Alex Dang Portfolio</title>
 				<meta name="description" content="Alex Dang Portfolio" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<link rel="icon" href="/favicon.jpg" />
+				<link rel="icon" href="../../public/favicon.jpg" />
 			</Head>
 			<div>
 				<Hero />
