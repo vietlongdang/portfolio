@@ -31,10 +31,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Use a directory with an absolute path
-        run: |
-          absolute_path="${{ github.workspace }}/public"
-          echo "Absolute path: $absolute_path"
       - name: Detect package manager
         id: detect-package-manager
         run: |

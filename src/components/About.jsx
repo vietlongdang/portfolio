@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const About = () => {
     return (
         <div className="about-container">
@@ -12,7 +10,7 @@ const About = () => {
                     <p>Throughout my career, I have worked on a wide range of projects, from simple static websites to complex enterprise-level applications. I am experienced in working with a variety of development tools and frameworks, including Angular, React, Vue.js, and Node.js. I am always eager to learn and explore new technologies, and I am constantly seeking out opportunities to improve my skills and knowledge.</p>
                 </div>
                 <div className="about-img">
-                    <Image src='/images/about.jpeg' className="profile-img" width={300} height={500} alt="Alex doing archery" />
+                    <img className="profile-img" src="https://vietlongdang.github.io/portfolio/images/about.jpeg" alt="Alex doing archery" />
                 </div>
             </div>
         </div>

@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 const Hero = () => {
     return (
         <div className="hero-container">
-            <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} alt="Alex Dang personal headshot" />
+            <img className="profile-img" src="https://vietlongdang.github.io/portfolio/images/profile.jpeg" alt="Alex Dang personal headshot"/>
             <div className="hero-text">
                 <h1>Hey, I'm Alex Dang 👋</h1>
                 <p>
@@ -16,7 +14,7 @@ const Hero = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <i class="fa-brands fa-telegram"></i>
+                        <i className="fa-brands fa-telegram"></i>
                     </a>
                     <a
                         href="https://github.com/vietlongdang"

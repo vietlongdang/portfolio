@@ -16,7 +16,7 @@ const Skills = () => {
                     <p>JavaScript</p>
                 </div>
                 <div className="skill-card angular">
-                    <i class="fa-brands fa-angular"></i>
+                    <i className="fa-brands fa-angular"></i>
                     <p>Angular</p>
                 </div>
                 <div className="skill-card react">
@@ -28,7 +28,7 @@ const Skills = () => {
                     <p>Node</p>
                 </div>
                 <div className="skill-card docker">
-                    <i class="fa-brands fa-docker"></i>
+                    <i className="fa-brands fa-docker"></i>
                     <p>Docker</p>
                 </div>
             </div>
