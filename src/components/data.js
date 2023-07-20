@@ -3,7 +3,7 @@ export const projectData = [
 		id: 1,
 		title: 'Excel Clone',
 		description:
-			'Excel App built with Vanilla JavaScript. All datas are stored in localstorage. Allow user to store and visualize data in a spreadsheet.',
+			'A Vanilla JavaScript Excel App where all data is stored in local storage, enabling users to store and visualize data using a spreadsheet-like interface.',
 		gitHubLink: 'https://github.com/vietlongdang/Excel',
 	},
 	{
@@ -17,21 +17,21 @@ export const projectData = [
 		id: 3,
 		title: 'Medium Clone',
 		description:
-			'Medium Clone build with Vue. Users can sign up, customize profiles, create/edit/delete posts, comment, and like, ensuring an engaging experience.',
+			'Medium Clone built with Vue. Users can sign up, customize profiles, create/edit/delete posts, comment, and like, ensuring an engaging experience.',
 		gitHubLink: 'https://github.com/vietlongdang/vue-medium-clone',
 	},
 	{
 		id: 4,
-		title: 'Mobile Self Posts',
+		title: 'Docker Training App',
 		description:
-			'Hybrid Mobile App built with React Native, where people can take photos, store them, add them to their favorites, and share them with others.',
-		gitHubLink: 'https://github.com/vietlongdang/Angular-Task-Management',
+			'Built a simple application with DockerFile and DockerCompose for dev and prod environments, utilizing NGINX for reverse proxy, load balancing, and caching.',
+		gitHubLink: 'https://github.com/vietlongdang/Docker',
 	},
 	{
 		id: 5,
-		title: 'Docker Training App',
+		title: 'Mobile Self Posts App',
 		description:
-			'Implemented simple application with DockerFile and DockerCompose for dev and prod enviroment. Also using NGINX to reverse proxy, load balancing, and caching.',
-		gitHubLink: 'https://github.com/vietlongdang/Docker',
+			'A React Native Hybrid Mobile App that facilitates capturing photos, storing them, favoriting selected ones, and sharing them with other users.',
+		gitHubLink: 'https://github.com/vietlongdang/rn-self-posts',
 	},
 ];
