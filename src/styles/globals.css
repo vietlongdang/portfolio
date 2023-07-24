@@ -270,23 +270,27 @@ hr {
 }
 
 .skills-container .grid-skills .html:hover {
-  background-color: #E34F26;
+  background-color: #e96328;;
 }
 
 .skills-container .grid-skills .css:hover {
-  background-color: #264DE4;
+  background-color: #2762e9;
 }
 
 .skills-container .grid-skills .js:hover {
-  background-color: #F7DF1E;
+  background-color: #f7df1c;
 }
 
 .skills-container .grid-skills .angular:hover {
-  background-color: #c3012f;
+  background-color: #d70230;
 }
 
 .skills-container .grid-skills .react:hover {
   background-color: #61DAFB;
+}
+
+.skills-container .grid-skills .vue:hover {
+  background-color: #42B883FF
 }
 
 .skills-container .grid-skills .node:hover {

@@ -23,6 +23,10 @@ const Skills = () => {
                     <i className="fa-brands fa-react react-icon"></i>
                     <p>React</p>
                 </div>
+                <div className="skill-card vue">
+                    <i className="fa-brands fa-vuejs vue-icon"></i>
+                    <p>Vue</p>
+                </div>
                 <div className="skill-card node">
                     <i className="fa-brands fa-node-js node-icon"></i>
                     <p>Node</p>
