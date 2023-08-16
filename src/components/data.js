@@ -1,7 +1,7 @@
 export const projectData = [
 	{
 		id: 1,
-		title: 'Ecommerce Admin Store',
+		title: 'E-commerce Admin Store',
 		description: 
 			'E-commerce store with an admin dashboard created via Next.js. Admins can add products without coding, enabling users to view and purchase desired items.',
 		gitHubLink: 'https://github.com/vietlongdang/ecommerce-store',
