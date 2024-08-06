@@ -143,10 +143,14 @@ hr {
   margin-bottom: 1rem;
 }
 
+.hero-container .cta-btn {
+  margin-bottom: 20px;
+}
+
 .hero-container .hero-text p {
   font-size: 1.2rem;
   font-weight: 400;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
 }
 
 .hero-container .social-icons {

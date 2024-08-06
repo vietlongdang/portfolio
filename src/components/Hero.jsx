@@ -3,11 +3,14 @@ const Hero = () => {
         <div className="hero-container">
             <img className="profile-img" src="https://vietlongdang.github.io/portfolio/images/profile.jpeg" alt="Alex Dang personal headshot" />
             <div className="hero-text">
-                <h1>Hey, I'm Alex Dang 👋</h1>
+                <h2>Hey, I'm Alex Dang 👋</h2>
                 <p>
                     I'm computer science graduate software developer.<br />
                     My passion is crafting innovative and user-friendly apps for various platforms.
                 </p>
+                <a href="https://modern-nextjs-portfolio.vercel.app/">
+                    <button type='button' className='cta-btn'>Check my modern portfolio</button>
+                </a>
                 <div className="social-icons">
                     <a
                         href="https://t.me/dangalex"
